@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: none; 
+}
+
+body{
+  background: url(../img/bg.png);
+  background-size: cover;
+  height: 40vw;
+  background-repeat: no-repeat;
+}
+.main{
+  background: url(../img/Layer\ 6.png);
+  display: flex;
+  justify-content: center;
+  height: 50vw;
+  align-items: center;
+}
+.main__section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(21, 35, 53);
+  height: 35vw;
+  flex-basis: 40vw;
+  border-radius: 1vw 0vw 0vw 1vw;
+ 
+}
+.main__img-logo{
+  width: 14%;
+  height: 7%;
+  margin-right: 30vw;
+  margin-top: -2vw;
+ 
+}
+.main__img-sneacer{
+  width: 75%;
+}
+.main__list{
+  display: flex;
+}
+.main__list li{
+  list-style: none;
+  font-size: 1vw;
+}
+
+
+.main__section-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgb(21, 35, 53);
+  height: 35vw;
+  flex-basis: 25vw;
+  border-radius: 0vw 1vw 1vw 0vw ;
+}
+
+.main__text-1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5vw;
+  color: lightgrey;
+  font-weight: 300;
+}
+.main__text-2{
+  color: grey;
+  font-size: 1.5vw;
+  padding-top: 1vw;
+  font-family: 'Raleway', sans-serif;
+}
+.main__container-2{
+  display: flex;
+  height: 4vw;
+  width: 15vw;
+  align-items: center;
+  margin-top: -7vw;
+  font-family: 'Raleway', sans-serif;
+  flex-wrap: wrap;
+}
+
+.main__container-2 p{
+  color: lightgrey;
+  font-size: 2vw;
+  margin: 0.1vw;
+  padding: 0.5vw;
+  border: 0.1vw solid lightgrey;
+  font-weight: 100;
+}
+
+.main__container-3{
+  font-family: 'Raleway', sans-serif;
+  background: rgb(42, 53, 69);
+  height: 4vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  margin-top: -7vw;
+}
+.main__container-3 a{
+  text-decoration: none;
+  color: lightgray;
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+
+.list-1 li{
+  justify-content: center;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+.list-2{
+  margin-top: -7vw;
+}
+
+.list-2 i{
+  color: lightgrey;
+}
+
+.list-2 i:hover{
+  color: yellow;
+}
+.list-1 i:hover{
+  color: red;
+}
+.main__container-3:hover{
+  background: rgb(42, 53, 85);
+}
