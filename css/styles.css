@@ -9,13 +9,16 @@ body{
   background-size: cover;
   height: 40vw;
   background-repeat: no-repeat;
+
 }
 .main{
   background: url(../img/Layer\ 6.png);
   display: flex;
   justify-content: center;
-  height: 50vw;
+  height: 40vw;
   align-items: center;
+  
+  
 }
 .main__section-1{
   display: flex;
@@ -54,6 +57,7 @@ body{
   background: rgb(21, 35, 53);
   height: 35vw;
   flex-basis: 25vw;
+  margin-left: -1vw;
   border-radius: 0vw 1vw 1vw 0vw ;
 }
 
@@ -96,7 +100,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid lightgray;
+  border: 0.1vw solid lightgray;
   margin-top: -7vw;
 }
 .main__container-3 a{
